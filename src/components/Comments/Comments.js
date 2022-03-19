@@ -9,7 +9,7 @@ const styleSheet = {
 }
 class Comments extends React.Component {
     render() {
-        const { id, name, email, body } = this.props.post;
+        const { id, name, email, body } = this.props.comment;
         return (
             <div style={styleSheet}>
                 <h1>Id: {id}</h1>

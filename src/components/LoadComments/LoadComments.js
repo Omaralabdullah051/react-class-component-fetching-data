@@ -15,7 +15,7 @@ class LoadComments extends React.Component {
             <div>
                 <h1>Comments: {comments.length}</h1>
                 {
-                    comments.map(post => <Comments post={post} key={post.id}></Comments>)
+                    comments.map(comment => <Comments comment={comment} key={comment.id}></Comments>)
                 }
             </div>
         )
